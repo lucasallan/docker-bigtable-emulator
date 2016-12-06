@@ -7,11 +7,11 @@ However, it is not very useful if you want to run in a containerized environment
 # How to use
 
 ```
-$ docker pull lucasamorim/bitable
-$ docker run -it --name bitable-emulator -p 8621:8621 lucasamorim/bitable
+$ docker pull lucasamorim/bigtable
+$ docker run -it --name bitable-emulator -p 8621:8621 lucasamorim/bigtable
 ```
 
-Now you need to run the equivalent of the ```$(gcloud beta emulators bitable env-init)``` command
+Now you need to run the equivalent of the ```$(gcloud beta emulators bigtable env-init)``` command
 
 ```
 $ export BIGTABLE_EMULATOR_HOST=localhost:8621
