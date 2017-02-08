@@ -1,4 +1,4 @@
-FROM blacklabelops/gcloud
+FROM lucasamorim/gcloud
 
 MAINTAINER Lucas Amorim <lucasamorim@protonmail.com>
 EXPOSE 8461
